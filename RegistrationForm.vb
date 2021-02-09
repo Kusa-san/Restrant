@@ -23,5 +23,7 @@
             ''saving the data to database on disk
             datatbase.SaveChanges()
         End Using
+        Me.Hide()
+        LoginForm.Show()
     End Sub
 End Class
