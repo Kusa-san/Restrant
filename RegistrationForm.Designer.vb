@@ -66,7 +66,7 @@ Partial Class RegistrationForm
         Me.Label1.Location = New System.Drawing.Point(4, 0)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(365, 15)
+        Me.Label1.Size = New System.Drawing.Size(365, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter name"
         '
@@ -76,10 +76,10 @@ Partial Class RegistrationForm
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(4, 43)
+        Me.Label2.Location = New System.Drawing.Point(4, 41)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(365, 15)
+        Me.Label2.Size = New System.Drawing.Size(365, 13)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Enter password"
         '
@@ -88,7 +88,7 @@ Partial Class RegistrationForm
         Me.NameBox.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.NameBox.Location = New System.Drawing.Point(4, 19)
+        Me.NameBox.Location = New System.Drawing.Point(4, 17)
         Me.NameBox.Margin = New System.Windows.Forms.Padding(4)
         Me.NameBox.Name = "NameBox"
         Me.NameBox.Size = New System.Drawing.Size(365, 20)
@@ -99,7 +99,7 @@ Partial Class RegistrationForm
         Me.passwordbox.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.passwordbox.Location = New System.Drawing.Point(4, 62)
+        Me.passwordbox.Location = New System.Drawing.Point(4, 58)
         Me.passwordbox.Margin = New System.Windows.Forms.Padding(4)
         Me.passwordbox.Name = "passwordbox"
         Me.passwordbox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -112,9 +112,9 @@ Partial Class RegistrationForm
         Me.loginbutton.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.loginbutton.Location = New System.Drawing.Point(3, 89)
+        Me.loginbutton.Location = New System.Drawing.Point(3, 85)
         Me.loginbutton.Name = "loginbutton"
-        Me.loginbutton.Size = New System.Drawing.Size(367, 30)
+        Me.loginbutton.Size = New System.Drawing.Size(367, 34)
         Me.loginbutton.TabIndex = 4
         Me.loginbutton.Text = "Register"
         Me.loginbutton.UseVisualStyleBackColor = True
